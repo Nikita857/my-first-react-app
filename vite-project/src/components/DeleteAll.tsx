@@ -1,8 +1,8 @@
 interface Props {
-    onDelete: () => void
+  onDelete: () => void;
 }
 
-export default function DeleteAll({onDelete}: Props) {
+export default function DeleteAll({ onDelete }: Props) {
   return (
     <div className="flex flex-center justify-center items-center">
       <button
@@ -12,7 +12,8 @@ export default function DeleteAll({onDelete}: Props) {
               border-red-500
                rounded-md p-3
                hover:bg-red-500  hover:text-white
-               ">
+               "
+      >
         Clear all
       </button>
     </div>
